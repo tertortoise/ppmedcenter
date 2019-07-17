@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ppmedcenter/static/css/main.c48def99.chunk.css",
+    "main.js": "/ppmedcenter/static/js/main.86138eb5.chunk.js",
+    "main.js.map": "/ppmedcenter/static/js/main.86138eb5.chunk.js.map",
+    "runtime~main.js": "/ppmedcenter/static/js/runtime~main.7d34283f.js",
+    "runtime~main.js.map": "/ppmedcenter/static/js/runtime~main.7d34283f.js.map",
+    "static/css/2.c51b6406.chunk.css": "/ppmedcenter/static/css/2.c51b6406.chunk.css",
+    "static/js/2.954ca1bb.chunk.js": "/ppmedcenter/static/js/2.954ca1bb.chunk.js",
+    "static/js/2.954ca1bb.chunk.js.map": "/ppmedcenter/static/js/2.954ca1bb.chunk.js.map",
+    "index.html": "/ppmedcenter/index.html",
+    "precache-manifest.03525917b8eb2d5ea893d75818e9c29b.js": "/ppmedcenter/precache-manifest.03525917b8eb2d5ea893d75818e9c29b.js",
+    "service-worker.js": "/ppmedcenter/service-worker.js",
+    "static/css/2.c51b6406.chunk.css.map": "/ppmedcenter/static/css/2.c51b6406.chunk.css.map",
+    "static/css/main.c48def99.chunk.css.map": "/ppmedcenter/static/css/main.c48def99.chunk.css.map",
+    "static/media/docFemale.jpg": "/ppmedcenter/static/media/docFemale.a6b65863.jpg",
+    "static/media/docMale.jpg": "/ppmedcenter/static/media/docMale.269f4559.jpg",
+    "static/media/imageBlank.svg": "/ppmedcenter/static/media/imageBlank.2f22e7c7.svg",
+    "static/media/img.jpg": "/ppmedcenter/static/media/img.02421cba.jpg"
+  }
+}
