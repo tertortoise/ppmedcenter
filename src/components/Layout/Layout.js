@@ -305,9 +305,9 @@ function Layout(props) {
       </ListItem>
       <ListItem
         button
-        onClick={handleMenuClick('/')}
-        selected={props.location.pathname === '/'}
-        disabled={props.location.pathname === '/'}
+        onClick={handleMenuClick('/ppmedcenter')}
+        selected={props.location.pathname === '/ppmedcenter'}
+        disabled={props.location.pathname === '/ppmedcenter'}
         className={classes.listItemRoot}
       >
         <ListItemIcon>

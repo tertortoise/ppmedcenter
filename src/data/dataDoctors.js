@@ -42,14 +42,10 @@ const doctors = [
     id: 'd004',
     firstName: 'Бирджабек',
     middleName: 'Галигбекович',
-    surname: 'Таджикистанов',
+    surname: 'Смирнов',
     speciality: 's003',
     gender: 'male',
     experience: '10 лет',
-    priceCoeff: 1,
-    picture: '', //dynamic 'images/'+ '001' + 'small' or 'big' + 'jpg'
-    details:
-      'Более 10 лет мануальной терапии в багаже знаний и опыта этого непревзойденного специалиста из солнечного Таджикистана',
   },
   {
     id: 'd005',
@@ -59,10 +55,6 @@ const doctors = [
     speciality: 's004',
     gender: 'female',
     experience: '12 лет',
-    priceCoeff: 1,
-    picture: '', //dynamic 'images/'+ '001' + 'small' or 'big' + 'jpg'
-    details:
-      'Более 12 лет педиатрии и детской терапии',
   },
   {
     id: 'd006',
@@ -72,10 +64,24 @@ const doctors = [
     speciality: 's005',
     gender: 'male',
     experience: '11 лет',
-    priceCoeff: 1,
-    picture: '', //dynamic 'images/'+ '001' + 'small' or 'big' + 'jpg'
-    details:
-      'Более 11 лет на поприще десткой хирургии',
+  },
+  {
+    id: 'd007',
+    firstName: 'Анастас',
+    middleName: 'Аппалонович',
+    surname: 'Высокосмотрящий',
+    speciality: 's006',
+    gender: 'male',
+    experience: '12 лет',
+  },
+  {
+    id: 'd008',
+    firstName: 'Анна',
+    middleName: 'Ивановна',
+    surname: 'Справкина',
+    speciality: 's009',
+    gender: 'female',
+    experience: '25 лет',
   },
 ];
 

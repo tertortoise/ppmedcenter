@@ -26,7 +26,7 @@ class App extends Component {
         <CssBaseline />
         <Layout>
           <Switch>
-            <Route path='/' exact component={Dash} />
+            <Route path='/ppmedcenter' exact component={Dash} />
             <Route
               path='/apptEditor'
               component={ApptEditor}
