@@ -1,0 +1,14 @@
+@import '../../styles/theme.scss';
+
+.Section {
+  @include paper;
+  padding: $spacing;
+  margin-bottom: $spacing;
+  &:hover {
+    background-color: $col-prim-light;
+    cursor: pointer;
+  }
+}
+.Calendar {
+  
+}

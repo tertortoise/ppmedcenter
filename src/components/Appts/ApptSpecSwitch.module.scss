@@ -1,0 +1,9 @@
+.ApptSpecSwitch {
+  border: 1px black solid;
+  .Alt {
+    border: 1px orange dashed;
+  }
+  .ActiveAlt {
+    background-color: orange;
+  }
+}

@@ -1,0 +1,25 @@
+.DoctorContainer {
+  display: flex;
+  .Doctor {
+    flex: 0 0 30%;
+  }
+  .DatesContainer {
+    flex: 0 0 65%;
+    .DateLine {
+      .Date {
+
+      }
+      .Time {
+        .TimeSlot {
+          padding-right: 0.3rem;
+          &:hover {
+            background-color: red;
+          }
+        }
+        .Selected {
+          background-color: orange;
+        }
+      }
+    }
+  }
+}

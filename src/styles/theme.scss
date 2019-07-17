@@ -1,0 +1,23 @@
+// colors
+$col-prim: #2AB5F4;
+$col-prim-dark: rgb(29, 126, 170);
+$col-prim-light: lighten($col-prim, 35%);
+$col-second: #f42ab5;
+$col-second-hover: lighten($col-second, 20%);
+$col-second-sel: lighten($col-second, 20%);
+$col-edited: mediumseagreen;
+$col-edited-dark: seagreen;
+$col-error-dark:  #b30000;
+$col-error: #ff6666;
+
+//spacings
+$spacing: 8px;
+$border-radius: 4px;
+
+//mixins
+@mixin paper {
+  border-radius: $border-radius;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}

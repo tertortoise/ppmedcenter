@@ -1,0 +1,83 @@
+@import '../../styles/theme.scss';
+$colum-breakpoint: 850px;
+
+.Paper {
+  @include paper;
+  margin-bottom: $spacing;
+  padding: $spacing * 1.5;
+  display: grid;
+  grid-template-columns: 1fr 2fr 7fr;
+  grid-column-gap: 1rem;
+  align-items: center;
+  @media (max-width: $colum-breakpoint) {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FotoCont {
+    text-align: center;
+    & > img {
+      border-radius: 50%;
+    }
+    
+  }
+  .DetailsCont {
+    // padding-left: $spacing * 2;
+    .FullName {
+      font-size: 1.2rem;
+    }
+
+    .Speciality {
+      padding-left: $spacing/2;
+      font-size: 1.3rem;
+      font-style: italic;
+    }
+    .Experience {
+      padding-left: $spacing/2;
+      font-size: 0.8rem;
+      margin-bottom: $spacing;
+    }
+    .Price {
+      padding-left: $spacing/2;
+      font-size: 1.1rem;
+    }
+    .FullName,
+    .Speciality,
+    .Experience,
+    .Price {
+      @media (max-width: $colum-breakpoint) {
+        text-align: center;
+      }
+    }
+  }
+  .SchCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    // padding-left: $spacing * 2;
+    .DatesCont {
+      
+      .DateLine {
+        .Date {
+          font-size: 1.3rem;
+          font-weight: 700;
+          @media (max-width: $colum-breakpoint) {
+            text-align: center;
+          }
+        }
+        .Time {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+    .BtnDiv {
+      text-align: center;
+    }
+  }
+}
+.PaperHover {
+  &:hover {
+    cursor: pointer;
+  }
+}

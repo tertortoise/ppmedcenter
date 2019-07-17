@@ -1,0 +1,23 @@
+@import '../../styles/theme.scss';
+
+.CustomCalendar {
+  border-radius: 1rem;
+  button {
+    border-radius: 3px;
+    &:disabled {
+      color: grey;
+    }
+  }
+  .Today {
+    background-color: $col-second;
+    &:hover {
+      background-color: $col-second-hover;
+    }
+  }
+  .Appt {
+    background-color: $col-prim;
+    &:hover {
+      background-color: $col-prim-light;
+    }
+  }
+}

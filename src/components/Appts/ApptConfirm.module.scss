@@ -1,0 +1,36 @@
+@import '../../styles/theme.scss';
+$breakpoint1: 1200px;
+$breakpoint2: 1200px;
+
+.Paper {
+  @include paper;
+  margin-bottom: $spacing;
+  padding: $spacing * 1.5;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+  font-size: 1.2rem;
+  font-weight: 700;
+  
+  .GridItem {
+    grid-column-start: 2;
+  }
+  .Confirm {
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+  }
+  .Header {
+    font-size: 1.4rem;
+    
+    margin: $spacing/2 0;
+  }
+  .DateTime, .Price {
+    display: grid;
+    grid-template-columns: minmax(max-content, 30%) 70%;
+    column-gap: $spacing/2;
+  }
+  .Attr {
+    font-weight: 400;
+  }
+}
