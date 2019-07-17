@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2913c4565e1ce48b2b096ac81001047",
+    "revision": "f1f8df6330df3798e96623bdb882b9cf",
     "url": "/ppmedcenter/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppmedcenter/static/css/2.c51b6406.chunk.css"
   },
   {
-    "revision": "71f413a964f72bdd983f",
+    "revision": "1faaed5842f229904e48",
     "url": "/ppmedcenter/static/css/main.c48def99.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ppmedcenter/static/js/2.954ca1bb.chunk.js"
   },
   {
-    "revision": "71f413a964f72bdd983f",
-    "url": "/ppmedcenter/static/js/main.86138eb5.chunk.js"
+    "revision": "1faaed5842f229904e48",
+    "url": "/ppmedcenter/static/js/main.611347f4.chunk.js"
   },
   {
     "revision": "b38fce13f90cea0d0a1c",
