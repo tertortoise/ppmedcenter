@@ -1,12 +1,12 @@
 # Project overview / Обзор проекта
-This project is just a frontend piece of Personal Cabinet for a patient to view, make, edit and delete appointments and personal data.
+This project is just a frontend piece of Personal Cabinet (SPA, single-page application) for a patient to view, make, edit and delete appointments and personal data.
 Fully responsive design.
 There is no backend (Redux store sort of emulates persistence of new appointments and changed personal data within a session).
 Deployment to github pages is on gh pages branch. Source code is on master branch.
 
 //Русский
 
-Этот проект представляет собой фронтэнд часть Личного Кабинета пациента для просмотра, создания, редактирования и удаления записей и личных данных.
+Этот проект представляет собой фронтэнд часть Личного Кабинета (SPA, одностраничное приложение) пациента для просмотра, создания, редактирования и удаления записей и личных данных.
 Полностью адаптивный дизайн.
 Этот проект без бэкэнда (Redux эмулирует сохранение новых записей и изменений в рамках сессии).
 Код для деплоя - gh pages. Исходник - master.
